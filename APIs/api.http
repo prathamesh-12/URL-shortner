@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/shorten
+Content-Type: application/json
+
+{
+    //"longUrl" : "https://www.amazon.in/dp/B07DJHXTLJ?pf_rd_p=fa25496c-7d42-4f20-a958-cce32020b23e&pf_rd_r=71SJTWSTNRXCEH8S1NYV"
+    "longUrl" : "https://www.flipkart.com/fitze-407-outdoors-men/p/itmf4qrm7jxytnsd?pid=SHOFFPK3GGP9ZSTS&lid=LSTSHOFFPK3GGP9ZSTSXEDZSW&marketplace=FLIPKART&srno=b_1_1&otracker=hp_omu_Deals%2Bof%2Bthe%2BDay_3_2.dealCard.OMU_UGXYPSBCQAJO_2&otracker1=hp_omu_SECTIONED_neo%2Fmerchandising_Deals%2Bof%2Bthe%2BDay_NA_dealCard_cc_3_NA_view-all_2&fm=organic&iid=en_alNAXNt3zijSqanMiqge0SwVBs1%2BfOjF4YF1eXrN0pXjFdNLKWLPCG1X99fgRfsWtMPP3eiv0YSPYwaBIGQdBg%3D%3D&ppt=browse&ppn=browse&ssid=j4hkskw5y80000001574778194686"
+}
