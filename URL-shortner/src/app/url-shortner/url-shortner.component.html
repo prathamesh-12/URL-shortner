@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <form name="form" #usForm="ngForm" (ngSubmit)="onUSFormSubmit(usForm)" novalidate>
+            <div class="form-group">
+                <label for="longURL">Long URL: </label>
+                <input type="text" name="longURL" id="longURL" class="form-control" #longURL required ngModel>
+            </div>
+            <button type="submit" class="btn btn-primary">Shorten URL</button>
+        </form>
+    </div>
+    <hr>
+    <!-- <div class="row">
+        <label for="shortenURL">ShortenURL URL: </label>
+        <input type="text" name="shortenURL" id="shortenURL" disabled [(ngModel)]="shortenURL" class="form-control">
+    </div> -->
+    <div class="input-group">
+            <input type="text" class="form-control" disabled name="shortenURL" id="shortenURL" [(ngModel)]="shortenURL" #shortURL>
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="button" title="Copy To Clipboard" (click)="onCopyToClipboard(shortURL)">
+                <i class="glyphicon glyphicon-floppy-disk"></i>
+              </button>
+            </div>
+    </div>
+</div>
